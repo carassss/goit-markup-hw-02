@@ -28,7 +28,7 @@ ul {
 .header-logo:focus {
     color: #404bbf;
 }
-.studio-logo {
+.studio-logo-header {
     color: #2E2F42;
 }
 
@@ -40,7 +40,10 @@ ul {
     color: #2e2f42;
 }
 
-.nav-link-item:hover,
+.nav-link-item:hover {
+    color: #404BBF
+}
+
 .nav-link-item:active {
     color: #404BBF;
 }
@@ -54,7 +57,10 @@ ul {
     font-style: normal;
 }
 
-.contacts-item:hover,
+.contacts-item:hover {
+    color: #404BBF;
+}
+
 .contacts-item:active {
     color: #404BBF ;
 }
@@ -66,21 +72,40 @@ ul {
 .page-heading {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.10;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
 
 .order-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    background-color: #4D5AE5;
 }
 
+.order-btn:hover {
+    background-color: #404BBF;
+}
+
+.order-btn:focus {
+    background-color: #404BBF;
+}
+
+.features-heading {
+    color: #ffffff;
+    line-height: 1,2;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+
+    
+}
 .features-list-heading {
     font-weight: 500;
     font-size: 20px;
@@ -110,6 +135,9 @@ ul {
     color: #2e2f42;
 }
 
+.team-card-item {
+    background-color: #ffffff;
+}
 .team-card-heading {
     font-weight: 500;
     font-size: 20px;
@@ -169,9 +197,12 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
+.studio-logo-footer {
+    color: #f4f4fd;
+}
 .footer-text {
     font-weight: 400;
     font-size: 16px;
