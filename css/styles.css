@@ -44,8 +44,12 @@ ul {
     color: #404BBF
 }
 
-.nav-link-item:active {
+.nav-link-item:focus {
     color: #404BBF;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .contacts-item {
@@ -61,7 +65,7 @@ ul {
     color: #404BBF;
 }
 
-.contacts-item:active {
+.contacts-item:focus {
     color: #404BBF ;
 }
 
